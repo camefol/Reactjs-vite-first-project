@@ -37,9 +37,7 @@ const Home = () => {
   return (
     <div className="flex max-w-screen text-center sm:text-left flex-col items-center">
       {/* Hero Section */}
-      <div className="py-8 text-4xl md:text-6xl font-bold text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-blue-900 bg-clip-text">
-        <h1>Find your desired service!</h1>
-      </div>
+
 
       {/* Services Section */}
       <Section variant="dark" sectionSize="medium" className="flex flex-col">
