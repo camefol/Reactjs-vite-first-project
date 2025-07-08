@@ -12,7 +12,7 @@ interface LayoutProps {
 
 const variantClasses: Record<Variant, string> = {
   default: '',
-  dark: 'bg-gradient-to-r from-gray-400 via-gray-200 to-gray-500',
+  dark: 'bg-gradient-to-r from-gray-200 via-gray-100 to-white-500',
   blue:'bg-gradient-to-r from-blue-400 via-indigo-300 to-blue-500'
 }
 
