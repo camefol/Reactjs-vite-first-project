@@ -16,7 +16,7 @@ const Navigator = () => {
       <div className="max-w-screen-xl mx-auto px-2 sm:px-4">
         <ul className="flex justify-center space-x-1 sm:space-x-4 py-2 sm:py-4">
         {menuItems.map(item => (
-            <li key={item.id} className="flex-1">
+            <li key={item.id} className="flex-1 sm:flex-none">
                <NavLink 
                 to={item.path}
                 className={({ isActive }) => `
