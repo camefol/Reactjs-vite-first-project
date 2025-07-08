@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Resume Writing & Optimization",
+      "description": "Professional resume writing service that transforms your experience into a compelling story. Our experts craft ATS-friendly resumes that get you noticed by hiring managers.",
+      "date": 1704067200000,
+      "imageUrl": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=500&h=300&fit=crop",
+      "imageAlt": "Professional resume document on desk",
+      "href": "/services/resume-writing"
+    },
+    {
+      "id": 2,
+      "title": "Interview Coaching & Preparation",
+      "description": "Master your interview skills with personalized coaching sessions. Practice common questions, improve your body language, and build confidence for any interview scenario.",
+      "date": 1703980800000,
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=300&fit=crop",
+      "imageAlt": "Professional interview coaching session",
+      "href": "/services/interview-coaching"
+    },
+    {
+      "id": 3,
+      "title": "LinkedIn Profile Enhancement",
+      "description": "Optimize your LinkedIn profile to attract recruiters and showcase your professional brand. Complete profile makeover including headline, summary, and keyword optimization.",
+      "date": 1703894400000,
+      "imageUrl": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
+      "imageAlt": "LinkedIn profile on laptop screen",
+      "href": "/services/linkedin-optimization"
+    },
+    {
+      "id": 4,
+      "title": "Job Search Strategy Consulting",
+      "description": "Develop a targeted job search plan tailored to your industry and career goals. Learn effective networking strategies and how to leverage job boards efficiently.",
+      "date": 1704153600000,
+      "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop",
+      "imageAlt": "Job search strategy meeting with consultant",
+      "href": "/services/job-search-strategy"
+    },
+    {
+      "id": 5,
+      "title": "Career Transition Support",
+      "description": "Navigate career changes with confidence. Get guidance on transferring skills to new industries, addressing employment gaps, and positioning yourself for career pivots.",
+      "date": 1709251200000,
+      "imageUrl": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=500&h=300&fit=crop",
+      "imageAlt": "Career counselor meeting with client",
+      "href": "/services/career-transition"
+    },
+    {
+      "id": 6,
+      "title": "Salary Negotiation Coaching",
+      "description": "Learn to negotiate your worth with confidence. Master the art of salary negotiation, understand market rates, and develop strategies for compensation discussions.",
+      "date": 1708041600000,
+      "imageUrl": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=500&h=300&fit=crop",
+      "imageAlt": "Professional handshake during negotiation",
+      "href": "/services/salary-negotiation"
+    },
+    {
+      "id": 7,
+      "title": "Portfolio & Work Sample Development",
+      "description": "Create a stunning portfolio that showcases your best work. Perfect for creative professionals, developers, and anyone who needs to demonstrate their skills visually.",
+      "date": 1704240000000,
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
+      "imageAlt": "Professional portfolio display on tablet",
+      "href": "/services/portfolio-development"
+    },
+    {
+      "id": 8,
+      "title": "Application Tracking & Follow-up",
+      "description": "Stay organized and maximize your application success rate. Our system helps track applications, schedule follow-ups, and manage your job search pipeline effectively.",
+      "date": 1704153600000,
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
+      "imageAlt": "Application tracking dashboard on computer",
+      "href": "/services/application-tracking"
+    }
+  ]
+}
