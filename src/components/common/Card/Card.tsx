@@ -18,7 +18,7 @@ const Card = ({
   href
 }: CardProps) => {
   return (
-    <div className='mx-auto border border-gray-200 rounded-xl shadow-lg bg-white overflow-visible max-w-md min-h-96 flex flex-col'>
+    <div className='mx-auto border border-gray-200 rounded-sm shadow-lg bg-white overflow-visible max-w-md min-h-96 flex flex-col'>
       {imageUrl && (
         <img 
           src={imageUrl} 
