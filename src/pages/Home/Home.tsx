@@ -42,7 +42,7 @@ const Home = () => {
       {/* Services Section */}
       <Section variant="dark" sectionSize="medium" className="flex flex-col">
         <h2 className="flex justify-center items-center m-6 font-light text-2xl text-center tracking-wide">
-          Featured Services
+          Featured Servicess
         </h2>
         
         <div className="relative max-w-6xl mx-auto">
