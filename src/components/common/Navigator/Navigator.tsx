@@ -20,9 +20,9 @@ const Navigator = () => {
                <NavLink 
                 to={item.path}
                 className={({ isActive }) => `
-                  px-3 py-2 mx-10 rounded-md text-2xl font-medium transition-all duration-500 animate-pulse
+                block w-full px-2 sm:px-4 py-2 rounded-md text-sm sm:text-lg md:text-xl font-medium transition-all duration-300 text-center
                   ${isActive 
-                    ? 'bg-blue-300 text-white scale-150' 
+                    ? 'bg-blue-500 text-white shadow-md' 
                     : 'text-gray-700 hover:text-blue-600 hover:bg-gray-100'
                   }
                 `}
