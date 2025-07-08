@@ -14,7 +14,7 @@ const Layout = ({ children }: LayoutProps) => {
       <div className="relative z-10 ">
       <Navigator />
         <Header />
-        <main className="flex justify-center px-4 py-4">
+        <main className="flex justify-center px-4">
           {children}
         </main>
         <Footer />
