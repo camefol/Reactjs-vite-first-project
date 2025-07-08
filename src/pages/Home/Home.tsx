@@ -40,9 +40,9 @@ const Home = () => {
 
 
       {/* Services Section */}
-      <Section variant="dark" sectionSize="medium" className="flex flex-col">
-        <h2 className="flex justify-center items-center m-6 font-light text-2xl text-center tracking-wide">
-          Featured Servicess
+      <Section variant="dark" sectionSize="medium" className="flex flex-col group">
+        <h2 className="flex justify-center items-center m-6 font-thin text-4xl text-center tracking-wide bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent group-hover:scale-110 trainsition duration-500 ease-out">
+          Featured Services
         </h2>
         
         <div className="relative max-w-6xl mx-auto">
@@ -116,8 +116,8 @@ const Home = () => {
       </Section>
 
       {/* Additional Sections */}
-      <Section variant="default">
-        <div className="text-center py-8">
+      <Section variant="default" className='group'>
+        <div className="text-center py-8 group-hover:scale-120 ease-out duration-500 transition-transform">
           <h2 className="text-3xl font-semibold mb-4">Why Choose Us?</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             We provide exceptional services with a focus on quality and customer satisfaction.
@@ -125,8 +125,8 @@ const Home = () => {
         </div>
       </Section>
 
-      <Section variant="blue">
-        <div className="text-center py-8">
+      <Section variant="blue" className='group'>
+        <div className="text-center py-8 group-hover:scale-120 ease-out duration-500 transition-transform">
           <h2 className="text-3xl font-semibold mb-4 text-white">Get Started Today</h2>
           <p className="text-blue-100 max-w-2xl mx-auto mb-6">
             Ready to find the perfect service for your needs? Browse our categories or contact us directly.
