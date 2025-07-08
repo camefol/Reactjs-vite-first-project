@@ -12,10 +12,10 @@ const Navigator = () => {
 
   return (
     <nav className="flex justify-evenly ">
-      <div className="w-full max-w-screen mx-auto px-4">
+      <div className="max-w-screen mx-auto px-4">
         <ul className="flex justify-center space-x-4 py-4 max-w-screen">
         {menuItems.map(item => (
-            <li key={item.id} className="flex items-center">
+            <li key={item.id} className="flex items-center flex-shrink-0">
               <NavLink 
                 to={item.path}
                 className={({ isActive }) => `
