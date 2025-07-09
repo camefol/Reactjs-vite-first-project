@@ -1,5 +1,5 @@
 import './App.css'
-import { Home, Profile, About, NotFound } from './pages';
+import { Home, Profile, PostService, NotFound, ServiceDetails } from './pages';
 import Layout  from './components/layout/Layout'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { QueryClientProviderWrapper } from './providers/queryProvider';
@@ -13,7 +13,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/profile" element={<Profile />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/postservice" element={<PostService />} />
+            <Route path="/services/:id" element={<ServiceDetails />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           </QueryClientProviderWrapper>

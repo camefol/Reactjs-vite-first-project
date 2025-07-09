@@ -1,10 +1,13 @@
 import { useState } from "react"
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
-  const [activeButton, setActiveButton] = useState(null);
+  const [activeButton, setActiveButton] = useState('');
+  const navigate = useNavigate();
 
   const handleFindServices = () => {
     setActiveButton('find');
+    navigate('/'); // Navigate first
     // Simulate navigation and scroll
     setTimeout(() => {
       const middleOfPage = document.body.scrollHeight / 4;
@@ -18,6 +21,7 @@ const Header = () => {
   const handleOfferServices = () => {
     setActiveButton('offer');
     // Simulate navigation
+    navigate('/postservice')
   };
 
   return (
