@@ -36,7 +36,7 @@ const PostService = () => {
     }
   };
   return (
-    <div className="max-w-3xl mx-auto p-6 bg-white rounded-lg shadow-md">
+    <div className="mx-8 w-screen sd:w-screen p-8 my-4 bg-white rounded-lg shadow-md">
     <h1 className="text-2xl font-bold mb-6">Add New Job Listing</h1>
     
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
@@ -186,6 +186,25 @@ const PostService = () => {
         )}
       </div>
 
+      <div>
+        <label htmlFor="email" className='block mb-2 font-medium text-gray-700'>
+          Email*
+        </label>
+        <input
+        id="email"
+        type="email"
+        {...register('email', { 
+          required: 'Your Email is required'
+      })}
+        className={`w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 ${
+          errors.email ? 'border-red-500 focus:ring-red-200' : 'border-gray-300 focus:ring-blue-200'}`
+        }
+        placeholder='example@gmail.com'
+        />
+        {errors.email && (
+          <p className='mt-1 text-sm text-red-600'>{errors.email.message}</p>
+        )}
+      </div>
       {/* Submit Button */}
       <div className="pt-4">
         <button
