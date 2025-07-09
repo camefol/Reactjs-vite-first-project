@@ -2,75 +2,75 @@
   "data": [
     {
       "id": 1,
-      "title": "Resume Writing & Optimization",
-      "description": "Professional resume writing service that transforms your experience into a compelling story. Our experts craft ATS-friendly resumes that get you noticed by hiring managers.",
+      "title": "Freelance Electrician Needed for Residential Wiring",
+      "description": "We're seeking a licensed electrician to complete wiring for a new residential construction project in the downtown area. The job involves installing electrical systems in a 3-bedroom home, including outlets, switches, and lighting fixtures. Must be familiar with local building codes and safety standards. The project is located at 123 Maple Street, starting next Monday. Work hours are flexible (8am-5pm) and the project is expected to take 2-3 weeks. Pay is $45/hour with potential for bonus if completed ahead of schedule. Tools and materials will be provided, but you must have your own transportation.",
       "date": 1704067200000,
       "imageUrl": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=500&h=300&fit=crop",
-      "imageAlt": "Professional resume document on desk",
-      "href": "/services/resume-writing"
+      "imageAlt": "Electrician working on residential wiring",
+      "href": "/jobs/electrician-position"
     },
     {
       "id": 2,
-      "title": "Interview Coaching & Preparation",
-      "description": "Master your interview skills with personalized coaching sessions. Practice common questions, improve your body language, and build confidence for any interview scenario.",
+      "title": "Full-Stack Developer for E-commerce Website",
+      "description": "Local startup needs a freelance developer to build a custom e-commerce platform for handmade goods. The project requires expertise in React.js, Node.js, and MongoDB to create a responsive web application with payment processing. Office is located at 456 Tech Park Drive, but remote work is possible. Must be available for weekly meetings (Tuesdays at 10am). Project duration is 3 months with possibility of extension. Pay is $75/hour or fixed project rate of $15,000. Ideal candidate will have previous e-commerce experience and strong UI/UX skills. Portfolio of similar projects required.",
       "date": 1703980800000,
       "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=300&fit=crop",
-      "imageAlt": "Professional interview coaching session",
-      "href": "/services/interview-coaching"
+      "imageAlt": "Developer working on laptop",
+      "href": "/jobs/fullstack-developer"
     },
     {
       "id": 3,
-      "title": "LinkedIn Profile Enhancement",
-      "description": "Optimize your LinkedIn profile to attract recruiters and showcase your professional brand. Complete profile makeover including headline, summary, and keyword optimization.",
+      "title": "Landscaping Field Worker for Commercial Property",
+      "description": "Immediate opening for experienced landscaping worker to maintain 5-acre commercial property in the suburbs. Duties include mowing, trimming, planting, irrigation system maintenance, and seasonal cleanup. Work location is 789 Business Park Boulevard, Monday-Friday 7am-3pm. Must have valid driver's license and reliable transportation to job site. Pay is $22/hour with overtime available during peak seasons. Equipment provided but must bring own work boots and gloves. Previous landscaping experience preferred but willing to train motivated individuals. Year-round position available for top performers.",
       "date": 1703894400000,
       "imageUrl": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
-      "imageAlt": "LinkedIn profile on laptop screen",
-      "href": "/services/linkedin-optimization"
+      "imageAlt": "Landscaper maintaining commercial property",
+      "href": "/jobs/landscaping-position"
     },
     {
       "id": 4,
-      "title": "Job Search Strategy Consulting",
-      "description": "Develop a targeted job search plan tailored to your industry and career goals. Learn effective networking strategies and how to leverage job boards efficiently.",
+      "title": "Freelance Plumber for Restaurant Renovation",
+      "description": "Urgently seeking licensed plumber for complete plumbing overhaul at popular downtown restaurant. Project includes installing new sinks, dishwashing station, and bathroom fixtures at 321 Culinary Avenue. Must be available for immediate start and able to work evenings (6pm-12am) to minimize business disruption. Project expected to take 1-2 weeks. Pay is $60/hour with $500 completion bonus. Must have commercial plumbing experience and own tools. Health inspection scheduled immediately after completion, so attention to detail is critical. References from similar projects required.",
       "date": 1704153600000,
       "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop",
-      "imageAlt": "Job search strategy meeting with consultant",
-      "href": "/services/job-search-strategy"
+      "imageAlt": "Plumber working under restaurant sink",
+      "href": "/jobs/plumber-position"
     },
     {
       "id": 5,
-      "title": "Career Transition Support",
-      "description": "Navigate career changes with confidence. Get guidance on transferring skills to new industries, addressing employment gaps, and positioning yourself for career pivots.",
+      "title": "Mobile App Developer for Fitness Startup",
+      "description": "Fitness technology startup seeks freelance iOS/Android developer to create cross-platform mobile application. Project involves building workout tracking features, social sharing components, and integration with wearable devices. Office located at 654 Innovation Way but remote work possible. Must have experience with React Native and Firebase. Project timeline is 4-6 months with potential for ongoing maintenance work. Compensation is $85/hour or equity options available. Weekly sprint meetings required (Wednesdays at 2pm). Please include links to published apps in your application. Exciting opportunity to work with cutting-edge fitness technology!",
       "date": 1709251200000,
       "imageUrl": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=500&h=300&fit=crop",
-      "imageAlt": "Career counselor meeting with client",
-      "href": "/services/career-transition"
+      "imageAlt": "Developer coding fitness app",
+      "href": "/jobs/app-developer"
     },
     {
       "id": 6,
-      "title": "Salary Negotiation Coaching",
-      "description": "Learn to negotiate your worth with confidence. Master the art of salary negotiation, understand market rates, and develop strategies for compensation discussions.",
+      "title": "Freelance Carpenter for Custom Cabinetry",
+      "description": "High-end design firm needs skilled carpenter for custom kitchen cabinet installation in luxury homes. Projects located throughout the metro area, starting with property at 987 Hillside Drive. Must have 5+ years experience with fine woodworking and precision installation. Work is project-based with typical jobs lasting 1-3 weeks. Pay ranges from $35-$50/hour based on experience, with performance bonuses for exceptional work. Must have own basic tools (specialty tools provided). Flexible scheduling but must meet strict deadlines. Portfolio of previous cabinetry work required. Potential for ongoing projects for reliable craftspeople.",
       "date": 1708041600000,
       "imageUrl": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=500&h=300&fit=crop",
-      "imageAlt": "Professional handshake during negotiation",
-      "href": "/services/salary-negotiation"
+      "imageAlt": "Carpenter installing custom cabinets",
+      "href": "/jobs/carpenter-position"
     },
     {
       "id": 7,
-      "title": "Portfolio & Work Sample Development",
-      "description": "Create a stunning portfolio that showcases your best work. Perfect for creative professionals, developers, and anyone who needs to demonstrate their skills visually.",
+      "title": "HVAC Technician for Apartment Complex Maintenance",
+      "description": "Apartment management company seeks freelance HVAC technician for seasonal maintenance and emergency repairs across multiple properties. Primary location is 753 Parkview Apartments but will service 5 nearby complexes. Must be EPA certified with 3+ years residential HVAC experience. On-call rotation required for after-hours emergencies (additional $100/call). Regular hours are Monday-Friday 8am-4pm at $32/hour. Year-round position with benefits available after 6 months. Company vehicle provided during work hours. Must pass background check. Immediate opening with training provided on specific building systems.",
       "date": 1704240000000,
       "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
-      "imageAlt": "Professional portfolio display on tablet",
-      "href": "/services/portfolio-development"
+      "imageAlt": "HVAC technician servicing unit",
+      "href": "/jobs/hvac-technician"
     },
     {
       "id": 8,
-      "title": "Application Tracking & Follow-up",
-      "description": "Stay organized and maximize your application success rate. Our system helps track applications, schedule follow-ups, and manage your job search pipeline effectively.",
+      "title": "Freelance Graphic Designer for Marketing Agency",
+      "description": "Busy marketing agency needs freelance graphic designer for various client projects including logos, brochures, and digital ads. Mostly remote work but occasional meetings at 159 Creative Lane required. Must be proficient in Adobe Creative Suite and familiar with branding principles. Projects typically last 1-4 weeks with pay ranging from $35-$60/hour based on experience and project complexity. Flexible hours but must meet client deadlines. Minimum 10 hours/week availability required. Ideal candidate will have diverse portfolio showcasing different styles and industries. Opportunity for long-term collaboration with top performers.",
       "date": 1704153600000,
       "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-      "imageAlt": "Application tracking dashboard on computer",
-      "href": "/services/application-tracking"
+      "imageAlt": "Graphic designer working on laptop",
+      "href": "/jobs/graphic-designer"
     }
   ]
 }
