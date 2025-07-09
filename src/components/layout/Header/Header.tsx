@@ -7,7 +7,7 @@ const Header = () => {
     setActiveButton('find');
     // Simulate navigation and scroll
     setTimeout(() => {
-      const middleOfPage = document.body.scrollHeight / 2;
+      const middleOfPage = document.body.scrollHeight / 4;
       window.scrollTo({
         top: middleOfPage,
         behavior: 'smooth'

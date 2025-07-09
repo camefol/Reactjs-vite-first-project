@@ -1,30 +1,13 @@
 import Section from '../../components/common/Section';
 import Card from '../../components/common/Card';
-import axios from 'axios';
 import { useState, useEffect, useRef } from 'react';
+import getServices from '../../components/hooks/getServices';
+
 
 const Home = () => {
-  const [services, setServices] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const { data: services = [], isLoading, error, refetch} = getServices()
   const scrollContainerRef = useRef(null);
 
-  useEffect(() => {
-    const fetchServices = async () => {
-      try {
-        setLoading(true);
-        const response = await axios.get('servicesData.json');
-        setServices(response.data.data || []);
-      } catch (err) {
-        setError('Failed to load services');
-        console.error('Error fetching services:', err);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchServices();
-  }, []);
 
   const scrollLeft = () => {
     scrollContainerRef.current?.scrollBy({ left: -400, behavior: 'smooth' });
@@ -36,10 +19,9 @@ const Home = () => {
 
   return (
     <div className="flex max-w-screen text-center sm:text-left flex-col items-center">
-      {/* Hero Section */}
-
 
       {/* Services Section */}
+      
       <Section variant="dark" sectionSize="medium" className="flex flex-col group">
         <h2 className="flex justify-center items-center m-6 font-thin text-4xl text-center tracking-wide bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent group-hover:scale-110 trainsition duration-500 ease-out">
           Featured Services
@@ -76,7 +58,7 @@ const Home = () => {
               scrollbarColor: '#9ca3af #4b5563'
             }}
           >
-            {loading ? (
+            {isLoading ? (
               // Loading skeleton
               Array.from({ length: 4 }).map((_, index) => (
                 <div key={index} className="flex-shrink-0 w-80 snap-start">
@@ -85,7 +67,7 @@ const Home = () => {
               ))
             ) : error ? (
               <div className="flex-shrink-0 w-full text-center py-8">
-                <p className="text-red-400">{error}</p>
+                <p className="text-red-400">Error: {error.message || String(error)}</p>
                 <button 
                   onClick={() => window.location.reload()} 
                   className="mt-4 px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors"
