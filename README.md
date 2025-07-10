@@ -1,3 +1,5 @@
+# This is simple React demo web App that can serve as a template only: Includes TailWind, React Query, useHookForm, axios
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
