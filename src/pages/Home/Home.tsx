@@ -3,7 +3,6 @@ import Card from '../../components/common/Card';
 import { useState, useEffect, useRef } from 'react';
 import getServices from '../../components/hooks/getServices';
 
-
 const Home = () => {
   const { data: services = [], isLoading, error, refetch} = getServices()
   const scrollContainerRef = useRef(null);
@@ -17,6 +16,8 @@ const Home = () => {
     scrollContainerRef.current?.scrollBy({ left: 400, behavior: 'smooth' });
   };
 
+
+
   return (
     <div className="flex max-w-screen text-center sm:text-left flex-col items-center">
 
@@ -24,8 +25,9 @@ const Home = () => {
       
       <Section variant="dark" sectionSize="medium" className="flex flex-col group">
         <h2 className="flex justify-center items-center m-6 font-thin text-4xl text-center tracking-wide bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent group-hover:scale-110 trainsition duration-500 ease-out">
-          Featured Services
+          Featured Services  
         </h2>
+
         
         <div className="relative max-w-6xl mx-auto">
           {/* Navigation Buttons */}

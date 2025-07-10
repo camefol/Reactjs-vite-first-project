@@ -7,7 +7,6 @@ const Navigator = () => {
   const menuItems = [
     {id:'home', label:'Home', path:'/'},
     {id:'postservice', label:'Post a Service', path:'/postService'},
-    {id:'profile', label:'Profile', path:'/profile'},
   ]
 
 

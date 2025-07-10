@@ -36,7 +36,7 @@ const PostService = () => {
     }
   };
   return (
-    <div className="mx-8 w-screen sd:w-screen p-8 my-4 bg-white rounded-lg shadow-md">
+    <div className="sd:mx-auto w-auto sd:w-screen p-8 my-4 bg-white rounded-lg shadow-md">
     <h1 className="text-2xl font-bold mb-6">Add New Job Listing</h1>
     
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
